@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="espAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="espAdmin.Designer.cs">
+      <DependentUpon>espAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="espEnseig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="espEnseig.Designer.cs">
+      <DependentUpon>espEnseig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="espEtud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="espEtud.Designer.cs">
+      <DependentUpon>espEtud.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +72,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="espAdmin.resx">
+      <DependentUpon>espAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="espEnseig.resx">
+      <DependentUpon>espEnseig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="espEtud.resx">
+      <DependentUpon>espEtud.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
