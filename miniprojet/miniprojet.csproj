@@ -46,7 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="LoginForm.cs">
+=======
+    <Compile Include="espAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="espAdmin.Designer.cs">
+      <DependentUpon>espAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="espEnseig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="espEnseig.Designer.cs">
+      <DependentUpon>espEnseig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="espEtud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="espEtud.Designer.cs">
+      <DependentUpon>espEtud.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+>>>>>>> 74687d61bed312dd2ef0eb841bd178d9cfb94cab
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LoginForm.Designer.cs">
@@ -54,6 +76,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
+=======
+    <EmbeddedResource Include="espAdmin.resx">
+      <DependentUpon>espAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="espEnseig.resx">
+      <DependentUpon>espEnseig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="espEtud.resx">
+      <DependentUpon>espEtud.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> 74687d61bed312dd2ef0eb841bd178d9cfb94cab
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
